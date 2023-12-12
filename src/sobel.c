@@ -16,7 +16,7 @@
 
 void sobel(int width, int height, unsigned char *input, unsigned char *output) {
   int i, j;
-
+	//JAI MODIFIE CETTE LIGNE AVEC CETTE COMMENTAIRE
   // Apply the filter
   for (j = 1; j < height - 1; j++) {
     for (i = 1; i < width - 1; i++) {
